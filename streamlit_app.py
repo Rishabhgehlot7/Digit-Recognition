@@ -6,7 +6,7 @@ from tensorflow import keras
 import numpy as np
 
 # Load the trained model
-model = keras.models.load_model('path_to_your_trained_model')
+model = keras.models.load_model('./path_to_your_trained_model')
 
 # Load MNIST test dataset
 (_, _), (x_test, y_test) = keras.datasets.mnist.load_data()
